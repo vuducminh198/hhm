@@ -147,7 +147,6 @@ html {
 }
 
 
-
 .fn__svg {
     fill: currentcolor;
     width: 18px;
@@ -652,8 +651,9 @@ frenify_typing span {
     display: none;
 
 }
-.short_logo .desktop_logo{
-    max-width: 50px;
+
+.short_logo .desktop_logo {
+    max-width: 100px;
     border-radius: 12px;
 }
 
@@ -664,6 +664,7 @@ frenify_typing span {
 @media (-webkit-min-device-pixel-ratio: 1.1),(min-device-pixel-ratio: 1.1),(min-resolution: 120dpi) {
     .retina_logo {
         display: block;
+        padding: 15px;
     }
 
     .desktop_logo {
@@ -724,9 +725,10 @@ frenify_typing span {
     transform: rotate(180deg);
 }
 
-.atosa_fn_leftpanel .leftpanel_content .n-scrollbar-content{
+.atosa_fn_leftpanel .leftpanel_content .n-scrollbar-content {
     padding: 50px 0;
 }
+
 .atosa_fn_leftpanel .leftpanel_content {
     flex: 1 0 auto;
     padding: 0 20px;
@@ -3678,7 +3680,7 @@ a.fn__like.no_border .fn__svg {
     background-position: center top;
     background-repeat: no-repeat;
     color: #3c434a;
-    height: 17px;
+    height: 32px;
     font-size: 20px;
     font-weight: 400;
     line-height: 1.3;
